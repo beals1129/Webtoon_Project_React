@@ -7,9 +7,9 @@ const Header = () => {
             <div>
                 <a><img/></a>
                 <input></input>
-                <button>Language</button>
+                <button>Language2</button>
                 <button>Login</button>
-            </div>
+            </div> 
             <SideBar></SideBar>
         </div>
     );
