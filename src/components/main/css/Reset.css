@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/* reset */
+* {margin:0; padding:0; box-sizing:border-box !important;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, article, aside, hgroup, header, footer, figure, figcaption, nav, section { margin:0; padding:0; border:0; font-size:100%; vertical-align:baseline; background:transparent; }
+article, aside, hgroup, header, footer, figure, figcaption, nav, section {display:block;}
+html, body {font-size:14px; height:100%; font-family:'SpoqaHanSansNeo',Arial,'Apple SD Gothic Neo',sans-serif; font-weight: 400; color:#222; line-height:1.2; box-sizing:border-box; -webkit-text-size-adjust:none; height: 100%;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal; line-height:1.2; word-break:keep-all;}
+fieldset {border:none;}
+ol, li {list-style:none; zoom:1;}
+span, p, a, div, em {word-break:keep-all;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,q:before, q:after {content:'';}
+table {border-collapse:collapse; border-spacing:0; table-layout:fixed;}
+button {margin:0; padding:0; border:0; font:inherit; color:inherit; background:transparent; overflow:visible; cursor:pointer; line-height:1; }
+a {color:#222;}
+a:link, a:visited, a:hover, a:active, a:focus {text-decoration:none;}
+legend, caption {display:none;}
+textarea {resize:vertical; font:inherit; overflow-y:auto;}
+input, select {color:inherit; font:inherit; color:#393939;border-radius: 0;border: none;background: 0 0;-webkit-appearance: none;-moz-appearance: none;appearance: none;outline: 0;text-decoration: none;-webkit-text-size-adjust: none;}
+input::-ms-clear {display:none;}
+input:disabled {background:#f5f5f5 !important; -webkit-text-fill-color: inherit; opacity:1;}
+button, input, select, textarea {vertical-align:top; font-family:inherit; outline-style:none; line-height:normal;}
+label {vertical-align:middle; cursor:pointer;}
+address, i, em {display:inline; font-style:normal; zoom:1;}
+table {width:100%; border-collapse:collapse; table-layout:fixed;}
+img, select, input, button {vertical-align:top;}
+img {perspective:1; -ms-perspective:1; -o-perspective:1; -webkit-perspective:1; -moz-perspective:1;}
+br {font-family:dotum !important;}
+body {background-color: #222; color: white; height: 100vh; overflow: hidden;}
+
+.container {max-width: 1250px ; padding: 0 80px ; margin: 0 auto; position: relative;}
+.content { margin: 40px auto; }
+.content .main_flex {display: flex; justify-content: center; align-items: center;}
+.content .main_flex .search_input { position: relative; height: 40px; width: 100%; margin: 0 50px; border: 1px solid gray; background-color: gray; border-radius:150px; padding:  10px 15px 10px 40px ;}
+.content .main_flex .search_input::after {content: ''; position: absolute;  }
+.content .main_flex .search_input::placeholder {color: white;}
+.content .main_flex a {font-size: 32px; font-weight: 700; color: #f5f5f5;}
+.content button {background-color: white; color: #222; padding:8px; border-radius: 15px; margin-left: 8px;}
+
+
+.side_bar{ display: flex; justify-content: space-between; font-size: 18px; margin: 30px 200px 0; color: rgb(182, 182, 182); font-weight: bold;}
+
+.content.main h1 {font-size: 42px; font-weight: 700; line-height: 1.5; margin-top: 20vh;}
+.content.main button {margin-top: 20px ; height: 50px; font-size: 20px; border-radius: 50px; padding: 0 100px  0 20px; font-weight: 600;}
+
+.main_toon_list {  margin: 80px auto; }
+.main_toon_list p {font-size: 20px;}
+.main_toon_list ul {margin-top: 20px; display: flex; }
+.main_toon_list ul li {margin-right: 10px;}
+
+.qna_chat { position: fixed; bottom: 10vh; right: 100px;}
+.qna_chat button {display: block;  width: 80px; height: 80px;  border-radius: 50px; background-color: rgb(31, 96, 216); color: white; font-size: 50px; font-weight: 700; }
+.qna_chat p{width: 200px; background-color: white; color: #000; height: 30px; line-height: 30px; text-align: center; font-weight: 700; border-radius: 50px; position: absolute; right: 0; top: -50px;} 
+.qna_chat p::after{content: ''; width: 0px; display: block; height: 0px;  border-top: 15px solid white; border-left: 10px solid transparent; border-right: 10px solid transparent; position: relative; bottom: 0; left: 150px;}
